@@ -1,0 +1,33 @@
+---
+title: "Exploring Histogram Bin Numbers"
+author: "Nick Strayer"
+date: "8/8/2018"
+output:
+  html_document:
+    theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(r2d3)
+library(tidyverse)
+```
+
+### Data
+
+The data being used for the following histogram is generated with this code: 
+
+```{r}
+data <- purrr::map_df(1:20, ~data_frame(x = rnorm(n = 20, mean = ., sd = 0.1)))
+```
+
+It's a bunch of normals spaced along a line from 0-20 in an effort to simulate digit preference in a measurement such as blood pressure. 
+
+### Histogram
+
+Drag the slider below to change the histogram bin numbers. 
+
+```{r, echo = FALSE}
+r2d3(data = data, script = "interactive_histogram.js", dependencies = 'd3-jetpack', container = 'div')
+```
