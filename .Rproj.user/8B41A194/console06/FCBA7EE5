@@ -1,24 +1,0 @@
-]0;/home/nick/fast_bind/histogram_bins]0;nick@compooper: ~/fast_bind/histogram_bins[01;32mnick@compooper[00m:[01;34m~/fast_bind/histogram_bins[00m$ [K]0;nick@compooper: ~/fast_bind/histogram_bins[01;32mnick@compooper[00m:[01;34m~/fast_bind/histogram_bins[00m$ ls
-total 16K
-drwxr-xr-x  3 nick nick 4.0K Aug  8 11:37 [0m[01;34m.[0m
-drwxrwxr-x 13 nick nick 4.0K Aug  8 11:37 [01;34m..[0m
--rw-r--r--  1 nick nick  205 Aug  8 11:37 histogram_bins.Rproj
-drwxr-xr-x  4 nick nick 4.0K Aug  8 11:37 [01;34m.Rproj.user[0m
-]0;/home/nick/fast_bind/histogram_bins]0;nick@compooper: ~/fast_bind/histogram_bins[01;32mnick@compooper[00m:[01;34m~/fast_bind/histogram_bins[00m$ cd his[K[K[K[K[K[Kcp -r ../histogram_bins/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcourses-visualization-best-practices-in-r/c[Kscratch_work/
-bin_number_animation.R      chapter_3.Rmd               interactive_histogram.html  nhnes.csv                   Traffic_Violations.csv
-bin_num_changes.gif         clean_speeding_data.R       interactive_histogram.js    slid3r.js                   
-bin_offset_changes.gif      frames/                     md_speeding.csv             style.css                   
-]0;nick@compooper: ~/fast_bind/histogram_bins[01;32mnick@compooper[00m:[01;34m~/fast_bind/histogram_bins[00m$ cp -r ../courses-visualization-best-practices-in-r/scratch_work/ .
-]0;/home/nick/fast_bind/histogram_bins]0;nick@compooper: ~/fast_bind/histogram_bins[01;32mnick@compooper[00m:[01;34m~/fast_bind/histogram_bins[00m$ cp ../courses-visualization-best-practices-in-r/scratch_work/interactive_histogram..s[K[Kjs 
-cp: missing destination file operand after '../courses-visualization-best-practices-in-r/scratch_work/interactive_histogram.js'
-Try 'cp --help' for more information.
-]0;/home/nick/fast_bind/histogram_bins]0;nick@compooper: ~/fast_bind/histogram_bins[01;32mnick@compooper[00m:[01;34m~/fast_bind/histogram_bins[00m$ cp ../courses-visualization-best-practices-in-r/scratch_work/interactive_histogram.js .
-]0;/home/nick/fast_bind/histogram_bins]0;nick@compooper: ~/fast_bind/histogram_bins[01;32mnick@compooper[00m:[01;34m~/fast_bind/histogram_bins[00m$ cp ../courses-visualization-best-practices-in-r/scratch_work/interactive_histogram.js .[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kk/bin_num
-bin_number_animation.R  bin_num_changes.gif     
-]0;nick@compooper: ~/fast_bind/histogram_bins[01;32mnick@compooper[00m:[01;34m~/fast_bind/histogram_bins[00m$ cp ../courses-visualization-best-practices-in-r/scratch_work/bin_num
-bin_number_animation.R  bin_num_changes.gif     
-]0;nick@compooper: ~/fast_bind/histogram_bins[01;32mnick@compooper[00m:[01;34m~/fast_bind/histogram_bins[00m$ cp ../courses-visualization-best-practices-in-r/scratch_work/bin_number_animation.R .
-]0;/home/nick/fast_bind/histogram_bins]0;nick@compooper: ~/fast_bind/histogram_bins[01;32mnick@compooper[00m:[01;34m~/fast_bind/histogram_bins[00m$ [K]0;nick@compooper: ~/fast_bind/histogram_bins[01;32mnick@compooper[00m:[01;34m~/fast_bind/histogram_bins[00m$ git init
-Initialized empty Git repository in /home/nick/fast_bind/histogram_bins/.git/
-]0;/home/nick/fast_bind/histogram_bins]0;nick@compooper: ~/fast_bind/histogram_bins[01;32mnick@compooper[00m:[01;34m~/fast_bind/histogram_bins[00m$ git remote add origin git@github.com:nstrayer/histogram_bins.git
-]0;/home/nick/fast_bind/histogram_bins]0;nick@compooper: ~/fast_bind/histogram_bins[01;32mnick@compooper[00m:[01;34m~/fast_bind/histogram_bins[00m$ git add =A[K[K-A
